@@ -11,6 +11,8 @@
 		36D076DD29DB594C00418F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D076DC29DB594C00418F9A /* ContentView.swift */; };
 		36D076DF29DB594E00418F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D076DE29DB594E00418F9A /* Assets.xcassets */; };
 		36D076E229DB594E00418F9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D076E129DB594E00418F9A /* Preview Assets.xcassets */; };
+		36D076E929DB5BCD00418F9A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D076E829DB5BCD00418F9A /* DataModel.swift */; };
+		36D076EB29DB5C1100418F9A /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D076EA29DB5C1100418F9A /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		36D076DC29DB594C00418F9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36D076DE29DB594E00418F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D076E129DB594E00418F9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36D076E829DB5BCD00418F9A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		36D076EA29DB5C1100418F9A /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				36D076DA29DB594C00418F9A /* Weather_App_AnimationsApp.swift */,
 				36D076DC29DB594C00418F9A /* ContentView.swift */,
+				36D076EA29DB5C1100418F9A /* PickerView.swift */,
+				36D076E829DB5BCD00418F9A /* DataModel.swift */,
 				36D076DE29DB594E00418F9A /* Assets.xcassets */,
 				36D076E029DB594E00418F9A /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D076EB29DB5C1100418F9A /* PickerView.swift in Sources */,
 				36D076DD29DB594C00418F9A /* ContentView.swift in Sources */,
 				36D076DB29DB594C00418F9A /* Weather_App_AnimationsApp.swift in Sources */,
+				36D076E929DB5BCD00418F9A /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
